@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./calcu.css">
+    <title>calculater</title>
 </head>
 <body>
     <div class="calc">
@@ -14,13 +15,16 @@
             <!-- first row -->
                 <tr>
                     <td>
-                        <div class="key allclear">AC</div>
+                        <div class="key all-clear">AC</div>
                     </td>
                     <td>
-                        <div class="key clear">C</div>
+                        <div class="key clear-last">C</div>
                     </td>
                     <td>
                         <div class="key show-display">%</div>
+                    </td>
+                    <td>
+                        <div class="key show-display">/</div>
                     </td>
                 </tr>
                 <!-- second row -->
@@ -77,11 +81,12 @@
                         <div class="key show-display">.</div>
                     </td>
                     <td>
-                        <div class="key calculate">3</div>
+                        <div class="key calculate">=</div>
                     </td>
                 </tr>
             </table>
         </div>
     </div>
+    <script src="./calcu.js"></script>
 </body>
 </html>
