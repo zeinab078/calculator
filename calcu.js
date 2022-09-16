@@ -10,13 +10,17 @@ function showDisplay(event){
     } 
     return displayBox.innerHTML +=x;
 }
+
  function calculation(){
     let result=displayBox.innerHTML
-    displayBox.innerHTML=evel(result)
+    displayBox.innerHTML=eval(result)
  }
+  function clearAll(){
+    displayBox.innerHTML=0;
+  }
 
 
 
 
-
+document.querySelector(".all-clear").addEventListener("click",clearAll)
 document.querySelector(".calculate").addEventListener("click",calculation)
