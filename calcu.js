@@ -10,3 +10,13 @@ function showDisplay(event){
     } 
     return displayBox.innerHTML +=x;
 }
+ function calculation(){
+    let result=displayBox.innerHTML
+    displayBox.innerHTML=evel(result)
+ }
+
+
+
+
+
+document.querySelector(".calculate").addEventListener("click",calculation)
